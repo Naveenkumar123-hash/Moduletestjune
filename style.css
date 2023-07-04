@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+header h1{text-align: center;}
+.data-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.data-input input{
+    background-color: black;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#add-button-id{
+    width: 40%;
+    padding: 10px;
+    font-weight: 400;
+    margin-top: 17px;
+    border: 1px solid white;
+}
+
+#search-student-id{
+    background-color: black;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    width: 90%;
+    margin-top: 60px;
+    
+
+}
+
+table{
+    margin-top: 30px;
+    width: 100%;
+    
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+td{
+    padding: 20px;
+    font-weight: 200;
+}
+
+.data-table{
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: auto;
+}
+
+.degree-edit-trash{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: black;
+}
+
+#search-student-id{
+    color: white;
+}

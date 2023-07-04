@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Management CRUD</title>
+</head>
+<body>
+    <header>
+    <h1>Student Management CRUD</h1>
+    </header>
+    <div class="data-input">
+        <input type="text" placeholder="Name" id="name" required>
+        <input type="email" placeholder="Email" id="email" required>
+        <input type="number" placeholder="GPA" id="gpa" required>
+        <input type="number"placeholder="Age" id="age" required>
+        <input type="text" placeholder="Degree" id="degree" required>
+    </div>
+    <div class="add-button-class">
+        <button id="add-button-id" onclick="addStudent()">Add Student</button>
+    </div>
+    <div class="search-student">
+        <input type="text" placeholder="Search By Name, email or degree" id="search-student-id">
+    </div>
+    <div class="data-table" id="data-table-id">
+        <table id="table-id">
+            <tr>
+                <td>ID</td>
+                <td>Student Name</td>
+                <td>Email</td>
+                <td>Age</td>
+                <td>GPA</td>
+                <td>Degree</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
